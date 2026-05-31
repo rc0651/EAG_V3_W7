@@ -1,0 +1,51 @@
+{
+  "entries": [
+    {
+      "uid": "1a7f6d810278",
+      "category": "fact",
+      "tags": [
+        "claude",
+        "shannon",
+        "information",
+        "theory",
+        "biography"
+      ],
+      "summary": "Claude Shannon was born April 30, 1916, died February 24, 2001, and founded information theory.",
+      "payload": {},
+      "blob_ref": null,
+      "origin": "user_query",
+      "run_id": "a8bea48e",
+      "goal_ref": null,
+      "score": 1.0,
+      "ts": "2026-05-26T09:26:21.726647Z"
+    },
+    {
+      "uid": "efb71ac9de34",
+      "category": "tool_outcome",
+      "tags": [
+        "fetch",
+        "url",
+        "https",
+        "wikipedia",
+        "org",
+        "wiki",
+        "claude",
+        "shannon"
+      ],
+      "summary": "fetch_url(url='https://en.wikipedia.org/wiki/') \u2192 Error executing tool fetch_url: BrowserType.launch: Executable doesn't exist at ",
+      "payload": {
+        "tool": "fetch_url",
+        "params": {
+          "url": "https://en.wikipedia.org/wiki/Claude_Shannon"
+        },
+        "result_preview": "Error executing tool fetch_url: BrowserType.launch: Executable doesn't exist at /Users/rahulchoudhary/Library/Caches/ms-playwright/chromium-1223/chrome-mac-x64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551 Looks like Playwright was just installed or updated.       \u2551\n\u2551 Please run the following command to download new browsers: \u2551\n\u2551                                                            \u2551\n\u2551     playwright "
+      },
+      "blob_ref": null,
+      "origin": "runner",
+      "run_id": "a8bea48e",
+      "goal_ref": "t1",
+      "score": 1.0,
+      "ts": "2026-05-26T09:26:57.252098Z"
+    }
+  ]
+}
